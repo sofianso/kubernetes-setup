@@ -38,3 +38,10 @@ spec:
       containers:
         - name: second-node
           image: sofianso/<name_of_docker_repo>
+          livenessProbe:
+            httpGet:
+              path: /
+              <!-- the port this container exposes -->
+              port: 8080
+            periodSeconds: 10
+            initialDelaySeconds: 5
