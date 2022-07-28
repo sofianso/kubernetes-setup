@@ -1,3 +1,4 @@
+
 ## Update Depployments
 **NOTE: You need to update the tag of the image of your Docker container in order for Kube to differentiate what version it is pulling.
 **

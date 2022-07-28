@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+# name of the object
+metadata: 
+  name: second-app-deployment
+# spec is how this deployment is configured
+spec: 
+  replicas: 1
+  # selector selects which other resources to use
+  selector:
+    matchLabels:
+
+  tempalate: 
+    metadata: 
+      labels: 
+      # you can have more than one label
+        app: second-app
+        # tier: backend
+    spec: 
+      containers: 
+        - name: second-node
+          image: sofianso/<name_of_docker_repo>
