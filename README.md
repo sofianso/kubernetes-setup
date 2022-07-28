@@ -21,3 +21,11 @@ The following command will install worker nodes and master nodes inside the virt
 ## To Open Kubernetes Dashboard
 `minikube dashboard`
 
+## Delete a Service Or Deployment
+To delete a service
+
+`delete service <name_of_app>`
+
+To delete a deployment
+
+`delete deployment <name_of_deployment>`
