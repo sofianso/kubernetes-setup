@@ -1,7 +1,7 @@
 # Purpose
 Learn how to Kubernetes works.
 
-## 1. [Install kubectl] (https://kubernetes.io/docs/tasks/tools/)
+## 1. [Install kubectl](https://kubernetes.io/docs/tasks/tools/)
 **NOTE: Install this first.**
 A tool to communicate to your Kubernetes. 
 
